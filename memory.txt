@@ -1,0 +1,4 @@
+userName=Kopano
+botName=kaxoaskpox
+favouriteTopics_Kopano=,ransomware
+lastTopic=ransomware
