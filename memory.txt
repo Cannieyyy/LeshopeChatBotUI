@@ -1,2 +1,4 @@
 userName=Kopano
-botName=jghghj
+botName=Sam
+favouriteTopics_Kopano=,password,social engineering
+lastTopic=social engineering

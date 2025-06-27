@@ -195,7 +195,7 @@ namespace LeshopeChatBotUI
         {
             bot.botName = bot.botName;
 
-            memory.SaveData("botname", bot.botName);
+            memory.SaveData("botName", bot.botName);
             MessageBox.Show($"Awesome my name will remain {bot.botName}");
 
             WelcomeNewUserPanel.Visibility = Visibility.Hidden;
