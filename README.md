@@ -62,4 +62,8 @@ This project is a chatbot application designed to raise awareness about cyber se
 ====================================================================================================================================
 
 ## Example Interaction
+<img width="580" alt="4" src="https://github.com/user-attachments/assets/4df19b10-fc23-44d9-9d70-bd337ddd6c4e" />
+<img width="594" alt="Capture3" src="https://github.com/user-attachments/assets/7c492ee0-3e12-4757-b69f-1978bfa10ed2" />
+<img width="588" alt="Capture2" src="https://github.com/user-attachments/assets/864e0639-5ff0-471d-9366-361354f95360" />
+<img width="594" alt="Capture" src="https://github.com/user-attachments/assets/94246205-8a87-4218-877e-6280edd06abf" />
 
