@@ -48,11 +48,12 @@
     <Grid Margin="20">
         <!-- Welcome Panel -->
         <StackPanel x:Name="WelcomePanel" VerticalAlignment="Center" HorizontalAlignment="Center" Width="600">
+            
             <TextBlock Text="Welcome to the Cyber Security Quiz!" 
-                   FontSize="24" FontWeight="Bold" 
+                   FontSize="30" FontWeight="Bold" 
                    Foreground="White" TextAlignment="Center" Margin="0,0,0,20"/>
             <Button Content="Start Quiz" Click="StartQuiz_Click"
-                Style="{StaticResource ActionButton}" Width="150" HorizontalAlignment="Center"/>
+                Style="{StaticResource ActionButton}" Width="150" Height="30" HorizontalAlignment="Center"/>
         </StackPanel>
 
         <!-- Quiz Panel -->
@@ -62,14 +63,17 @@
                    TextWrapping="Wrap" Margin="0,0,0,20"/>
             <StackPanel x:Name="AnswersPanel" Margin="0,0,0,10"/>
             <TextBlock x:Name="ResponseText" Foreground="White" FontSize="16" 
-           FontStyle="Italic" TextAlignment="Center" Margin="0,0,0,10" Visibility="Collapsed"/>
-            <Button Content="Next" Width="120" Click="Next_Click" 
+               FontStyle="Italic" TextAlignment="Center" Margin="0,0,0,10" Visibility="Collapsed"/>
+            <Button Content="Next" Width="150" Height="30" Click="Next_Click" 
                 Style="{StaticResource ActionButton}" HorizontalAlignment="Center"/>
         </StackPanel>
 
         <!-- Final Score Text -->
+        
+        <Image Source="C:\Users\RC_Student_lab\source\repos\LeshopeChatBotUI\logo.png" Width="150" Height="150" Margin="300,0,0,300"/>
         <TextBlock x:Name="FinalScoreText" FontSize="20" FontWeight="Bold" Foreground="LightGreen"
                TextAlignment="Center" Visibility="Collapsed"
                HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,20,0,20"/>
+        
     </Grid>
 </Window>

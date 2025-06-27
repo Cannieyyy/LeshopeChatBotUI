@@ -9,12 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Logo.ico" />
     <None Remove="logo.png" />
     <None Remove="memory.txt" />
     <None Remove="words.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Logo.ico" />
     <Content Include="memory.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
