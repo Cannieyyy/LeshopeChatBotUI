@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="greet.wav" />
     <None Remove="Logo.ico" />
     <None Remove="logo.png" />
     <None Remove="memory.txt" />
@@ -16,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="greet.wav" />
     <Content Include="Logo.ico" />
     <Content Include="memory.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

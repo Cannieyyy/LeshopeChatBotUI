@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Media;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -40,7 +41,7 @@ namespace LeshopeChatBotUI
             {
 
                 InitializeComponent();
-
+                PlayGreetingSound();
                 bot = new CyberBot();
                 bot.TrainModel("chat_training_data.json");
                 logWindow = new LogWindow(bot.userName);
@@ -368,7 +369,29 @@ namespace LeshopeChatBotUI
                 logWindow.Activate();
             }
         }
+        private void PlayGreetingSound()
+        {
+            try
+            {
+                // Specify the path to your WAV file (ensure it is copied to the output directory)
+                string soundPath = "C:\\Users\\RC_Student_lab\\source\\repos\\LeshopeChatBotUI\\greet.wav";
 
+                if (File.Exists(soundPath))
+                {
+                    SoundPlayer player = new SoundPlayer(soundPath);
+                    player.Load();
+                    player.Play();
+                }
+                else
+                {
+                    MessageBox.Show("Greeting sound file not found: " + soundPath);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed to play greeting sound: " + ex.Message);
+            }
+        }
 
     }
 }
